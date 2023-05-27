@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para a seção de destaque */
+.hero-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-section h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos para a seção de recursos/serviços */
+.features-section {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.features-section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.features-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos para a seção de depoimentos */
+.testimonials-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonials-section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonials-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos para a seção de chamada para ação */
+.cta-section {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.cta-section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.cta-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-section button:hover {
+  background-color: #555;
+}

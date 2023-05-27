@@ -1,0 +1,95 @@
+.header {
+  padding: 20px;
+  background-image: linear-gradient(-6deg, rgb(60, 0, 60), rgb(10, 20, 0));
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logoText {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+  animation-delay: 0.3s;
+  color: cornsilk;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.navbarList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarItem {
+  margin-right: 20px;
+}
+
+.navbarLink {
+  color: cornsilk;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbarLink {
+  transition: color 0.3s ease;
+}
+
+.navbarLink:hover {
+  color: #ff9900; /* Altere para a cor desejada */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logoText {
+    margin-top: 10px;
+  }
+
+  .navbarList {
+    margin-top: 10px;
+  }
+
+  .navbarItem {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
