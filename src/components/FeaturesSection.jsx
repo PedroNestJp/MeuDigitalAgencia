@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/FeaturesSection.module.css";
-import Image from "next/image";
 import { BsBrowserChrome, BsInstagram, BsMailbox } from "react-icons/bs";
 import { FaNetworkWired } from "react-icons/fa";
 import {  } from "react-icons/ai";
