@@ -19,6 +19,7 @@ const Header = () => {
           />
           
           <h1 className={styles.logoText}>Meu Digital Agência</h1>
+          <spa > A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL </spa>
           <img
           alt=""
           src={headerSectionDevices}
