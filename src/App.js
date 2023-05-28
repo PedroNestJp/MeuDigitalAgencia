@@ -13,7 +13,7 @@ import '../src/App.css'
 export default function App() {
   return (
     <main>
-    <div className='mainContent'>
+    <div>
       <Header/>
       <FeaturesSection/>
       <TestimonialsSection/>
