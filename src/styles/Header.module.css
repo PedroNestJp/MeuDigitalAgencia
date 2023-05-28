@@ -42,7 +42,11 @@
   }
 }
 
-.logoText {
+.textHeader{
+  height: 350px;
+}
+
+.textHeader {
   opacity: 0;
   animation: fadeIn 0.8s ease-in-out forwards;
   animation-delay: 0.3s;
@@ -92,7 +96,7 @@
   }
 
   .logoText {
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 
   .navbarList {

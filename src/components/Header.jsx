@@ -16,10 +16,8 @@ const Header = () => {
             height={100}
             border-radius={20}
           />
-
-          <h1 className={styles.logoText}>Meu Digital Agência</h1>
-          <spa> A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL </spa>
           <img alt="" src={headerSectionDevices} />
+          <spa className="textHeader" > A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL </spa>
         </div>
         <nav className={styles.navbar}>
           <ul className={styles.navbarList}>

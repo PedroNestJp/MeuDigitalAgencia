@@ -7,12 +7,13 @@ import FaqSection from './components/FaqSection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import CTASection from './components/CTASection'
+import '../src/App.css'
 
 
 export default function App() {
   return (
     <main>
-    <div>
+    <div className='mainContent'>
       <Header/>
       <FeaturesSection/>
       <TestimonialsSection/>
