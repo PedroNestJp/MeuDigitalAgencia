@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "../styles/FeaturesSection.module.css";
-import { BsBrowserChrome, BsInstagram, BsMailbox } from "react-icons/bs";
-import { FaNetworkWired } from "react-icons/fa";
-import {  } from "react-icons/ai";
+import headerSectionaIdea from "../images/feaureSecion-idea.png";
+import headerSectionSeo from "../images/feaureSecion-seo.png";
+import headerSectionMail from "../images/feaureSecion-mail.png";
+import headerSectionDevices from "../images/feaureSecion-devices (1).png";
 
 const FeaturesSection = () => {
   return (
@@ -11,12 +12,13 @@ const FeaturesSection = () => {
         <h2 className={styles.sectionTitle}>Serviços oferecidos </h2>
 
         <div className={styles.feature}>
-
-            < BsInstagram  alt="Recursos"
+          <img
+            src={headerSectionaIdea}
+            alt="Recursos"
             className={styles.featureImage}
             width={200}
-            height={200}/>
-          
+            height={200}
+          />
 
           <div className={styles.featureContent}>
             <h3 className={styles.featureTitle}>
@@ -33,7 +35,9 @@ const FeaturesSection = () => {
         </div>
 
         <div className={styles.feature}>
-          <FaNetworkWired
+          <img
+            src={headerSectionDevices}
+            alt=""
             className={styles.featureImage}
             width={200}
             height={200}
@@ -54,7 +58,8 @@ const FeaturesSection = () => {
         </div>
 
         <div className={styles.feature}>
-          <BsBrowserChrome
+          <img 
+          src={headerSectionSeo}
             alt="Recursos"
             className={styles.featureImage}
             width={200}
@@ -74,7 +79,8 @@ const FeaturesSection = () => {
         </div>
 
         <div className={styles.feature}>
-          <BsMailbox
+          <img
+          src={headerSectionMail}
             alt="Recursos"
             className={styles.featureImage}
             width={200}
