@@ -1,19 +1,21 @@
+
+
 .header {
   padding: 20px;
-  background-image: linear-gradient(-6deg, rgb(60, 0, 60), rgb(10, 20, 0));
+  background: linear-gradient(265.28deg, #590046 5.95%, rgba(50, 13, 42, 0.978721) 45.4%, rgba(0, 0, 0, 0.95) 98.65%, rgba(0, 0, 0, 0.95) 98.65%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .logoContainer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logoContainer {
@@ -26,6 +28,7 @@
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -71,7 +74,8 @@
 }
 
 .navbarLink:hover {
-  color: #ff9900; /* Altere para a cor desejada */
+  color: #ff9900;
+  /* Altere para a cor desejada */
 }
 
 @media screen and (max-width: 768px) {

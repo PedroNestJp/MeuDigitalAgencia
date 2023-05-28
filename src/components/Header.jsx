@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
 import headerSectionDevices from "../images/headerSecion-deviceHand.png";
+import { BsInstagram, BsWhatsapp } from 'react-icons/bs'
 
 
 
@@ -28,18 +29,44 @@ const Header = () => {
           <ul className={styles.navbarList}>
             <li className={styles.navbarItem}>
               <a href="#features" className={styles.navbarLink}>
-                Recursos
+                Início
+              </a>
+            </li>
+            <li className={styles.navbarItem}>
+              <a href="#features" className={styles.navbarLink}>
+                Sobre
               </a>
             </li>
             <li className={styles.navbarItem}>
               <a href="#testimonials" className={styles.navbarLink}>
-                Depoimentos
+                Serviços
               </a>
             </li>
             <li className={styles.navbarItem}>
               <a href="#cta" className={styles.navbarLink}>
-                Entre em contato
+                Atendimento
               </a>
+            </li>
+            <li className={styles.navbarItem}>
+              <a href="#cta" className={styles.navbarLink}>
+                Suporte
+              </a>
+            </li>
+            <li className={styles.navbarItem}>
+              <a href="#cta" className={styles.navbarLink}>
+                Suporte
+              </a>
+            </li>
+            <li className={styles.navbarItem}>
+              <a href="#cta" className={styles.navbarLink}>
+                <BsInstagram/>
+                
+              </a>
+              <a href="#cta" className={styles.navbarLink}>
+              <BsWhatsapp/>
+                
+              </a>
+              <p style={{color:'white'}}> 83 9 86377109 </p>
             </li>
           </ul>
         </nav>

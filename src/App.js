@@ -14,11 +14,11 @@ export default function App() {
     <main>
     <div>
       <Header/>
-      <HeroSection/>
       <FeaturesSection/>
       <TestimonialsSection/>
       <FaqSection/>
       <CTASection/>
+      <HeroSection/>
       <Contact/>
       <Footer/>
     </div>
