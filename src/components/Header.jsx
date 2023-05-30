@@ -9,16 +9,17 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logoContainer}>
           <img
-            src="/images/logoNew.png"
+            src="./images/logoNew1.png"
             alt="Logo"
             className={styles.logo}
-            width={100}
-            height={100}
-            border-radius={20}
           />
-          <img alt="" src={headerSectionDevices} />
-          <spa className="textHeader" > A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL </spa>
+
+
         </div>
+        <img
+          className={styles.headerImg}
+          alt=""
+          src={headerSectionDevices} />
         <nav className={styles.navbar}>
           <ul className={styles.navbarList}>
             <li className={styles.navbarItem}>
@@ -41,18 +42,23 @@ const Header = () => {
                 Atendimento
               </a>
             </li>
-            <li className={styles.navbarItem}>
-              <a href="#cta" className={styles.navbarLink}>
+
+            <li>
+              <a style={{ marginLeft: '5rem' }}
+                href="#cta" className={styles.navbarLink}>
                 <BsInstagram />
               </a>
               <a href="#cta" className={styles.navbarLink}>
                 <BsWhatsapp />
               </a>
-              <p style={{ color: "white" }}> 83 9 86377109 </p>
+              <a href="#cta" className={styles.navbarLink}> 83 9 86377109 </a>
             </li>
           </ul>
+          <div className={styles.textHeader} > A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL
+          </div>
         </nav>
       </div>
+
     </header>
   );
 };
