@@ -8,62 +8,116 @@
   opacity: 0;
   transform: translateY(20px);
   animation: slideIn .8s ease-in-out forwards;
-  }
+}
 
-  .features {
+.features {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.8s ease-in-out forwards;
+}
+
+
+@keyframes slideIn {
+  from {
     opacity: 0;
     transform: translateY(20px);
-    animation: slideIn 0.8s ease-in-out forwards;
   }
-  
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .sectionTitle {
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff8dc;
-    margin-bottom: 40px;
-  }
-  
-  .feature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    flex-direction: column;
-    border: rgb(255, 255, 255) solid 1px;
-  }
-  
-  .featureImage {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-  }
-  
-  .featureTitle {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-  
-  .featureDescription {
-    font-size: 16px;
-    color: #f1f1f1;
-  }
-  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #893389;
+  margin-bottom: 40px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+  border: rgb(255, 255, 255) solid 1px;
+  width: 213px;
+  height: 317px;
+
+  background: #FBFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+}
+
+.featureImage {
+  width: 100px;
+  height: 100px;
+}
+
+.featureTitle {
+  margin: 7px 0px 10px;
+  width: 200px;
+  height: 13px;
+  left: 85px;
+  top: 427px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #893389;
+}
+
+.featureDescription {
+  width: 196px;
+  height: 151px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #A39C9C;
+}
+
+.contactUs {
+  width: 72px;
+  height: 12px;
+
+
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #A39C9C;
+}
+
+.contactUsUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

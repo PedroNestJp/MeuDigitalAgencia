@@ -4,20 +4,20 @@ import headerSectionaIdea from "../images/feaureSecion-idea.png";
 import headerSectionSeo from "../images/feaureSecion-seo.png";
 import headerSectionMail from "../images/feaureSecion-mail.png";
 import headerSectionDevices from "../images/feaureSecion-devices (1).png";
+import { } from 'react-icons/bs'
+import { HiOutlineArrowLongRight } from "react-icons/hi2"
 
 const FeaturesSection = () => {
   return (
     <section id="features" className={styles.features}>
+      <h2 className={styles.sectionTitle}>Serviços oferecidos </h2>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Serviços oferecidos </h2>
 
         <div className={styles.feature}>
           <img
             src={headerSectionaIdea}
             alt="Recursos"
             className={styles.featureImage}
-            width={200}
-            height={200}
           />
 
           <div className={styles.featureContent}>
@@ -30,6 +30,19 @@ const FeaturesSection = () => {
               estratégias eficazes para a sua presença nas redes sociais,
               envolvendo seu público-alvo, aumentando o reconhecimento da marca
               e impulsionando as vendas.
+            </p>
+            <span className={styles.line}>
+            </span>
+            <p className={styles.contactUsUp}>
+              <a className={styles.contactUs}>
+                Fale conosco
+              </a>
+              <a style={{
+                width: '46px',
+                color: 'color: #A39C9C;'
+              }}>
+                <HiOutlineArrowLongRight />
+              </a>
             </p>
           </div>
         </div>
@@ -54,12 +67,25 @@ const FeaturesSection = () => {
               fortalecerá sua marca, estabelecerá sua autoridade no setor e
               aumentará sua base de clientes.
             </p>
+            <span className={styles.line}>
+            </span>
+            <p className={styles.contactUsUp}>
+              <a className={styles.contactUs}>
+                Fale conosco
+              </a>
+              <a style={{
+                width: '46px',
+                color: 'color: #A39C9C;'
+              }}>
+                <HiOutlineArrowLongRight />
+              </a>
+            </p>
           </div>
         </div>
 
         <div className={styles.feature}>
-          <img 
-          src={headerSectionSeo}
+          <img
+            src={headerSectionSeo}
             alt="Recursos"
             className={styles.featureImage}
             width={200}
@@ -75,12 +101,25 @@ const FeaturesSection = () => {
               nos resultados de pesquisa e direcionar mais tráfego qualificado
               para o seu negócio.
             </p>
+            <span className={styles.line}>
+            </span>
+            <p className={styles.contactUsUp}>
+              <a className={styles.contactUs}>
+                Fale conosco
+              </a>
+              <a style={{
+                width: '46px',
+                color: 'color: #A39C9C;'
+              }}>
+                <HiOutlineArrowLongRight />
+              </a>
+            </p>
           </div>
         </div>
 
         <div className={styles.feature}>
           <img
-          src={headerSectionMail}
+            src={headerSectionMail}
             alt="Recursos"
             className={styles.featureImage}
             width={200}
@@ -95,6 +134,19 @@ const FeaturesSection = () => {
               clientes e impulsionar suas vendas. Desenvolvemos campanhas
               personalizadas, segmentadas e impactantes que envolvem seus
               clientes, promovem suas ofertas e aumentam a fidelidade à marca.
+            </p>
+            <span className={styles.line}>
+            </span>
+            <p className={styles.contactUsUp}>
+              <a className={styles.contactUs}>
+                Fale conosco
+              </a>
+              <a style={{
+                width: '46px',
+                color: 'color: #A39C9C;'
+              }}>
+                <HiOutlineArrowLongRight />
+              </a>
             </p>
           </div>
         </div>
