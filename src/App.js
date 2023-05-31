@@ -7,6 +7,7 @@ import FaqSection from './components/FaqSection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import CTASection from './components/CTASection'
+import AboutUs from './components/AboutUs'
 import '../src/App.css'
 
 
@@ -16,6 +17,7 @@ export default function App() {
     <div>
       <Header/>
       <FeaturesSection/>
+      <AboutUs/>
       <TestimonialsSection/>
       <FaqSection/>
       <CTASection/>

@@ -39,7 +39,7 @@ const FeaturesSection = () => {
               </a>
               <a style={{
                 width: '46px',
-                color: 'color: #A39C9C;'
+                color: '#A39C9C'
               }}>
                 <HiOutlineArrowLongRight />
               </a>
@@ -75,7 +75,7 @@ const FeaturesSection = () => {
               </a>
               <a style={{
                 width: '46px',
-                color: 'color: #A39C9C;'
+                color: '#A39C9C'
               }}>
                 <HiOutlineArrowLongRight />
               </a>
@@ -109,7 +109,7 @@ const FeaturesSection = () => {
               </a>
               <a style={{
                 width: '46px',
-                color: 'color: #A39C9C;'
+                color: '#A39C9C'
               }}>
                 <HiOutlineArrowLongRight />
               </a>
@@ -143,7 +143,7 @@ const FeaturesSection = () => {
               </a>
               <a style={{
                 width: '46px',
-                color: 'color: #A39C9C;'
+                color: '#A39C9C'
               }}>
                 <HiOutlineArrowLongRight />
               </a>
