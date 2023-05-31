@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
               desde então.
             </p>
             <p className={styles.testimonialAuthor}>
-              - João Silva, CEO da Empresa XYZ
+              - LuArtes
             </p>
           </div>
           <div className={styles.testimonial}>
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
               alcançar mais clientes.
             </p>
             <p className={styles.testimonialAuthor}>
-              - Maria Santos, Proprietária da Loja ABC
+              - Pedro Nest, CEO Nest informática
             </p>
           </div>
         </div>
