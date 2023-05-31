@@ -44,7 +44,7 @@ const Header = () => {
             </li>
 
             <li>
-              <a style={{ marginLeft: '5rem' }}
+              <a style={{ margin: '0px 10px 0px 30px' }}
                 href="#cta" className={styles.navbarLink}>
                 <BsInstagram />
               </a>
@@ -54,7 +54,11 @@ const Header = () => {
               <a href="#cta" className={styles.navbarLink}> 83 9 86377109 </a>
             </li>
           </ul>
-          <div className={styles.textHeader} > A IMPORTÂNCIA DO SEU NEGÓCIO DIGITAL
+          <div className={styles.textHeader} > 
+            <span className={styles.spanTextHeader}> A </span> 
+            <span> IMPORTÂNCIA </span> 
+            <span className={styles.spanTextHeader} > DO  </span> <span > SEU  </span> 
+            <span> NEGÓCIO DIGITAL </span>
           </div>
         </nav>
       </div>

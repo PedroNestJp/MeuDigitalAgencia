@@ -1,54 +1,54 @@
 .contact {
-    padding: 80px 0;
-    background-color: #f9f9f9;
-  }
-  
+  padding: 80px 0;
+  background: #FAEEFE;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contactForm {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: linear-gradient(265.28deg, #7B3893 5.95%, rgba(79, 41, 70, 0.978721) 45.4%, rgba(0, 0, 0, 0.95) 98.65%, rgba(0, 0, 0, 0.95) 98.65%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
   .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
   }
-  
-  .sectionTitle {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .sectionDescription {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .contactForm {
-    display: grid;
-    grid-gap: 20px;
-  }
-  
-  .inputField {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .submitButton {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #0070f3;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      padding: 0 10px;
-    }
-  }
-  
+}

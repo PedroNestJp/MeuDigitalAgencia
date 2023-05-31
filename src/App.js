@@ -1,15 +1,13 @@
 
 import Header from './components/Header'
-import HeroSection from './components/HeroSection'
 import FeaturesSection from './components/FeaturesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import FaqSection from './components/FaqSection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import CTASection from './components/CTASection'
 import AboutUs from './components/AboutUs'
 import '../src/App.css'
-
+import Teste from './components/teste'
 
 export default function App() {
   return (
@@ -20,8 +18,7 @@ export default function App() {
       <AboutUs/>
       <TestimonialsSection/>
       <FaqSection/>
-      <CTASection/>
-      <HeroSection/>
+      <Teste/>
       <Contact/>
       <Footer/>
     </div>
