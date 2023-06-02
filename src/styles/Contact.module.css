@@ -45,6 +45,11 @@
   border: none;
   cursor: pointer;
   color: white;
+  
+}
+.submitButton:hover{
+  transition: all ease 1s;
+  background: linear-gradient(265.28deg,rgba(0, 0, 0, 0.95) 98.65%, rgba(79, 41, 70, 0.978721) 45.4%, #7B3893 5.95% ,rgba(0, 0, 0, 0.95) 98.65% );
 }
 
 @media (max-width: 768px) {
