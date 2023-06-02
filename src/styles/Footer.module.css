@@ -41,7 +41,8 @@
   color: white;
 }
 
-.btnFooter{
-  background-color: #7B3893;
+button .btnFooter{
+  color: white;
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
 }

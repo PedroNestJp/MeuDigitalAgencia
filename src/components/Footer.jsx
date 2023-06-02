@@ -74,10 +74,9 @@ const Footer = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            
-            <IoPaperPlaneOutline> <button className="btnFooter" type="submit">
-            
-            </button> </IoPaperPlaneOutline>
+            <button className="btnFooter" type="submit" >
+            <IoPaperPlaneOutline  />
+            </button>
           </div>
           <div className={styles.contactForm}>
           </div>

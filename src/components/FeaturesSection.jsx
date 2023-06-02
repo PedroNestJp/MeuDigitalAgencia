@@ -29,7 +29,7 @@ const FeaturesSection = () => {
             <h3  className={styles.featureTitle}>
               Criação, Integração e Gestão de Redes Sociais
             </h3>
-            <p className={styles.featureDescription}>
+            <p data-aos='fade-up' className={styles.featureDescription}>
               Aproveite o poder das redes sociais para impulsionar o seu
               negócio. Nossos especialistas em marketing digital irão criar
               estratégias eficazes para a sua presença nas redes sociais,
@@ -66,7 +66,7 @@ const FeaturesSection = () => {
             <h3 className={styles.featureTitle}>
               Criação de Sites Personalizados
             </h3>
-            <p className={styles.featureDescription}>
+            <p data-aos='fade-up' className={styles.featureDescription}>
               Desenvolvemos sites modernos, responsivos e personalizados para
               atender às necessidades do seu negócio. Atraia e envolva seu
               público-alvo por meio de conteúdo relevante e valioso. Nossa
@@ -76,11 +76,11 @@ const FeaturesSection = () => {
             </p>
             <span className={styles.line}></span>
             <p className={styles.contactUsUp}>
-              <a href="_" className={styles.contactUs}>
+              <a href="#contact" className={styles.contactUs}>
                 Fale conosco
               </a>
               <a
-                href="_"
+                href="#contact"
                 style={{
                   width: "46px",
                   color: "#A39C9C",
@@ -104,7 +104,7 @@ const FeaturesSection = () => {
             <h3 className={styles.featureTitle}>
               Otimização para Mecanismos de Busca
             </h3>
-            <p className={styles.featureDescription}>
+            <p data-aos='fade-up' className={styles.featureDescription}>
               Aumente a visibilidade do seu site nos motores de busca.
               Utilizamos técnicas avançadas de SEO para melhorar o seu ranking
               nos resultados de pesquisa e direcionar mais tráfego qualificado
@@ -112,11 +112,11 @@ const FeaturesSection = () => {
             </p>
             <span className={styles.line}></span>
             <p className={styles.contactUsUp}>
-              <a href="_" className={styles.contactUs}>
+              <a href="#contact" className={styles.contactUs}>
                 Fale conosco
               </a>
               <a
-                href="_"
+                href="#contact"
                 style={{
                   width: "46px",
                   color: "#A39C9C",
@@ -140,7 +140,7 @@ const FeaturesSection = () => {
             <h3 className={styles.featureTitle}>
               Campanhas de Email Marketing
             </h3>
-            <p className={styles.featureDescription}>
+            <p data-aos='fade-up' className={styles.featureDescription}>
               Aproveite o poder do email marketing para se conectar com seus
               clientes e impulsionar suas vendas. Desenvolvemos campanhas
               personalizadas, segmentadas e impactantes que envolvem seus
@@ -148,11 +148,11 @@ const FeaturesSection = () => {
             </p>
             <span className={styles.line}></span>
             <p className={styles.contactUsUp}>
-              <a href="_" className={styles.contactUs}>
+              <a href="#contact" className={styles.contactUs}>
                 Fale conosco
               </a>
               <a
-                href="_"
+                href="#contact"
                 style={{
                   width: "46px",
                   color: "#A39C9C",

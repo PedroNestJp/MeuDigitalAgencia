@@ -3,8 +3,15 @@ import styles from "../styles/Contact.module.css";
 import { collection, addDoc } from "firebase/firestore";
 import {  getToken } from "firebase/messaging";
 import { db, messaging } from "../lib/firebase";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: "2000" });
+  }, []);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -57,7 +64,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className={styles.contact}>
+    <section data-aos='fade-up' id="contact" className={styles.contact}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Entre em Contato</h2>
         <p className={styles.sectionDescription}>

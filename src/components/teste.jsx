@@ -3,7 +3,7 @@ import '../styles/Carousel.css';
 
 const Carousel = () => {
   return (
-    <div className="carousel">
+    <div className="carousel" >
       <div className="carousel-item">
         <img src="./images/logoNestSquare.png" alt="Testimonial" className="testimonial-image" />
         <h5 className="testimonial-text">
