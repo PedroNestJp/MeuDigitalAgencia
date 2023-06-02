@@ -1,9 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
 import styles from "../styles/AboutUs.module.css"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const AboutUs = () => {
+    useEffect(() => {
+        AOS.init({duration:'2000'})
+    },[])
+    
     return (
-        <section >
+        <section id="aboutUs" data-aos='fade-up'>
             <div className={styles.main}      >
                 <h2 className={styles.title}>
                     Sobre nós

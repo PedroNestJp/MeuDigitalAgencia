@@ -7,13 +7,13 @@
   text-align: center;
   opacity: 0;
   transform: translateY(20px);
-  animation: slideIn .8s ease-in-out forwards;
+  animation: slideIn 1s ease-in-out forwards;
 }
 
 .features {
   opacity: 0;
   transform: translateY(20px);
-  animation: slideIn 0.8s ease-in-out forwards;
+  animation: slideIn 1s ease-in-out forwards;
 }
 
 

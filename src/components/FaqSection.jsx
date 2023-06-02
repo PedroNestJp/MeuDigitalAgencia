@@ -1,9 +1,16 @@
 import React from "react";
 import styles from "../styles/FaqSection.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 const FaqSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: "2000" });
+  }, []);
   return (
-    <section className={styles.faq}>
+    <section data-aos='fade-up' className={styles.faq}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Perguntas Frequentes</h2>
 

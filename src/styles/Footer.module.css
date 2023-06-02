@@ -40,3 +40,8 @@
 .submitEmail::placeholder{
   color: white;
 }
+
+.btnFooter{
+  background-color: #7B3893;
+  cursor: pointer;
+}

@@ -1,9 +1,15 @@
 import React from "react";
 import styles from "../styles/TestimonialsSection.module.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const TestimonialsSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: "2000" });
+  }, []);
   return (
-    <section id="testimonials" className={styles.testimonials}>
+    <section data-aos='fade-up' id="testimonials" className={styles.testimonials}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Depoimentos</h2>
         <div className={styles.testimonialsList}>

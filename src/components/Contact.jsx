@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/Contact.module.css";
 import { collection, addDoc } from "firebase/firestore";
-import {  getToken, onMessage } from "firebase/messaging";
+import {  getToken } from "firebase/messaging";
 import { db, messaging } from "../lib/firebase";
 
 const Contact = () => {
@@ -57,7 +57,7 @@ const Contact = () => {
   };
 
   return (
-    <section className={styles.contact}>
+    <section id="contact" className={styles.contact}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Entre em Contato</h2>
         <p className={styles.sectionDescription}>

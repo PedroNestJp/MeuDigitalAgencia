@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import styles from "../styles/Footer.module.css";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { collection, addDoc } from "firebase/firestore";
-import {  getToken, onMessage } from "firebase/messaging";
+import {  getToken } from "firebase/messaging";
 import { db, messaging } from "../lib/firebase";
 
 
 const Footer = () => {
-  const [name, setName] = useState("");
+
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -17,9 +17,7 @@ const Footer = () => {
     try {
       // Salvar os dados no Firestore
       await addDoc(collection(db, "messages"), {
-        name: name,
         email: email,
-        message: message,
         timestamp: new Date(),
       });
 
@@ -37,7 +35,7 @@ const Footer = () => {
           message: {
             notification: {
               title: "Nova mensagem recebida",
-              body: `Você recebeu uma nova mensagem de ${name}`,
+              body: `Você recebeu uma nova mensagem de ${email}`,
             },
             token: token,
           },
@@ -50,11 +48,8 @@ const Footer = () => {
       // Erro ao enviar mensagem push
       console.error("Erro ao enviar mensagem push:", error);
     }
-
     // Limpar os campos após o envio
-    setName("");
     setEmail("");
-    setMessage("");
   };
 
   return (
@@ -79,26 +74,12 @@ const Footer = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <button type="submit" hidden></button>
-            <IoPaperPlaneOutline />
+            
+            <IoPaperPlaneOutline> <button className="btnFooter" type="submit">
+            
+            </button> </IoPaperPlaneOutline>
           </div>
           <div className={styles.contactForm}>
-            <input
-              type="text"
-              className={styles.name}
-              placeholder="Seu nome"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-            <textarea
-              className={styles.message}
-              placeholder="Mensagem"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-            <button type="submit" className={styles.submitButton}>
-              Enviar Mensagem
-            </button>
           </div>
         </form>
         <div>

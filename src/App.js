@@ -9,13 +9,17 @@ import AboutUs from './components/AboutUs'
 import '../src/App.css'
 import Teste from './components/teste'
 
+
 export default function App() {
+
+
+
   return (
     <main>
     <div>
-      <Header/>
-      <FeaturesSection/>
-      <AboutUs/>
+      <Header />
+      <FeaturesSection />
+      <AboutUs />
       <TestimonialsSection/>
       <FaqSection/>
       <Teste/>
