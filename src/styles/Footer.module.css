@@ -19,8 +19,6 @@
 }
 
 .logo {
-  background-color: white;
-  color: white;
   width: 60px;
   height: 54.87px;
 }
@@ -29,4 +27,16 @@
   .container {
     padding: 0 10px;
   }
+}
+
+.submitEmail{
+  padding: 5px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-left: hidden;
+  border-top: hidden;
+  border-right: hidden;
+}
+.submitEmail::placeholder{
+  color: white;
 }

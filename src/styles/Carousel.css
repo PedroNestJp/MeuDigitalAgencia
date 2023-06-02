@@ -1,7 +1,6 @@
 .carousel {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 5rem;
 }
 
@@ -13,6 +12,22 @@
   text-align: center;
   height: auto;
   margin: 0 16px;
+  opacity: 0.8;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.carousel-item:hover {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .testimonial-image {

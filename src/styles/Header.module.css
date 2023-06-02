@@ -12,13 +12,13 @@
 
 .logoContainer {
   opacity: 0;
-  animation: Header_fadeIn__Rk2Ls 0.8s ease-in-out forwards;
+  animation: Header_fadeIn__Rk2Ls 1s ease-in-out forwards;
 }
 
 .logoContainer {
   display: flex;
   opacity: 0;
-  animation: fadeIn 0.8s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
@@ -53,7 +53,7 @@
   flex-wrap: wrap;
   margin: 2rem;
   opacity: 0;
-  animation: fadeIn 0.8s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards;
   animation-delay: 0.3s;
   color: rgb(255, 255, 255);
 }
@@ -97,8 +97,7 @@
 }
 
 .navbarLink:hover {
-  color: #d225f5;
-  /* Altere para a cor desejada */
+  color: #81678a;
 }
 
 
