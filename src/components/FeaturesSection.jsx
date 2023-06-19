@@ -38,7 +38,7 @@ const FeaturesSection = () => {
             </p>
             <span className={styles.line}></span>
             <p className={styles.contactUsUp}>
-              <a href="_" className={styles.contactUs}>
+              <a href="#contact" className={styles.contactUs}>
                 Fale conosco
               </a>
               <a

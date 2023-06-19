@@ -13,7 +13,6 @@ const TestimonialsSection = () => {
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Depoimentos</h2>
         <div className={styles.testimonialsList}>
-          {/* Testemunhos dos clientes */}
           <div className={styles.testimonial}>
             <p className={styles.testimonialText}>
               A Agência Digital fez um trabalho incrível para impulsionar a
