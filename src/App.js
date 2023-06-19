@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import AboutUs from './components/AboutUs'
 import '../src/App.css'
-import Teste from './components/teste'
+import TestmonialsClientes from './components/TestmonialsClientes'
 
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
       <AboutUs />
       <TestimonialsSection/>
       <FaqSection/>
-      <Teste/>
+      <TestmonialsClientes/>
       <Contact/>
       <Footer/>
     </div>

@@ -2,14 +2,11 @@ import React, { useState } from "react";
 import styles from "../styles/Footer.module.css";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { collection, addDoc } from "firebase/firestore";
-import {  getToken } from "firebase/messaging";
+import { getToken } from "firebase/messaging";
 import { db, messaging } from "../lib/firebase";
 
-
 const Footer = () => {
-
   const [email, setEmail] = useState("");
-
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -63,7 +60,10 @@ const Footer = () => {
           <p className={styles.phone}>83 9 86377109</p>
         </div>
         <form onSubmit={handleFormSubmit}>
-          <div className={styles.newslatter}>
+          <div
+            style={{ textAlign: "center", lineHeight: "85%" }}
+            className={styles.newslatter}
+          >
             <p className={styles.signUpNewsLatter}>
               Inscreva-se na nossa Newsletter
             </p>
@@ -74,14 +74,19 @@ const Footer = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <button className="btnFooter" type="submit" >
-            <IoPaperPlaneOutline  />
+            <button className={styles.btnFooter} type="submit">
+              <IoPaperPlaneOutline />
             </button>
           </div>
-          <div className={styles.contactForm}>
-          </div>
+          <div className={styles.contactForm}></div>
         </form>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
           <img
             src="./images/logoMeuWhite.png"
             alt="Logo"

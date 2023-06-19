@@ -3,7 +3,8 @@ import '../styles/Carousel.css';
 
 const Carousel = () => {
   return (
-    <div className="carousel" >
+    <section className="carousel">
+    <div className="carouselDiv" >
       <div className="carousel-item">
         <img src="./images/logoNestSquare.png" alt="Testimonial" className="testimonial-image" />
         <h5 className="testimonial-text">
@@ -26,6 +27,7 @@ const Carousel = () => {
         <p className="testimonial-author">- Priscila Pontes Nails Design </p>
       </div>
     </div>
+    </section>
   );
 };
 

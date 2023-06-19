@@ -1,5 +1,5 @@
 .footer {
-  height: 136px;
+  padding: 1rem;
   background: linear-gradient(265.28deg, #7B3893 5.95%, rgba(79, 41, 70, 0.978721) 45.4%, rgba(0, 0, 0, 0.95) 98.65%, rgba(0, 0, 0, 0.95) 98.65%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -9,12 +9,10 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
   color: white;
-  
-  height: -webkit-fill-available;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
@@ -25,6 +23,7 @@
 
 @media (max-width: 768px) {
   .container {
+    flex-direction: column;
     padding: 0 10px;
   }
 }
@@ -41,8 +40,7 @@
   color: white;
 }
 
-button .btnFooter{
-  color: white;
-  background-color: rgb(255, 255, 255);
+.btnFooter{
+  visibility: hidden;
   cursor: pointer;
 }

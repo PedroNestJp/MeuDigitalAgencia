@@ -1,20 +1,32 @@
 .carousel {
   display: flex;
+  margin: 1rem;
   justify-content: center;
-  margin: 5rem;
 }
 
-.carousel-item {
+@media (max-width:700px) {
+  .carouselDiv{
+    flex-direction: column;
+  }
+  
+}
+
+.carouselDiv {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 30rem;
-  text-align: center;
-  height: auto;
-  margin: 0 16px;
-  opacity: 0.8;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+
+.carousel-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 16px;
+    opacity: 0.8;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .carousel-item:hover {
@@ -31,19 +43,21 @@
 }
 
 .testimonial-image {
-  width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
-  object-fit: cover;
+  width: 200px; 
+  height: 200px;
   border-radius: 50%;
   margin-bottom: 16px;
 }
 
 .testimonial-text {
-  font-size: 24px;
-  margin-bottom: 16px;
+    height: 10rem;
+    text-align: center;
+    font-size: 24px;
+    line-height: 22px;
 }
 
 .testimonial-author {
+  margin-bottom: 2rem;
   font-size: 18px;
   font-style: italic;
 }
